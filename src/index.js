@@ -20,6 +20,10 @@ module.exports = {
     let res = await fetch(`${baseURL}/bots/${botid}`)
     return await res.json()
   },
+  fetchServer: async (serverid) => {
+    let res = await fetch(`${baseURL}/servers/${serverid}`)
+    return await res.json()
+  },
   fetchVotes: async (botid) => {
     let res = await fetch(`${baseURL}/bots/${botid}/votes`)
     return await res.json()

@@ -2,9 +2,9 @@
 
 const vitallist = require('vitallist.js')
 
-fetchVotes()
+fetchServer()
 
-async function fetchVotes() {
-   const bot = await vitallist.fetchVotes("884122923227553873")
-   console.log(bot)
+async function fetchServer() {
+   const server = await vitallist.fetchServer("1006065494257848433")
+   console.log(server)
 }
