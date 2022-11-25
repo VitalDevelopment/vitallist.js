@@ -1,6 +1,6 @@
 {
   "name": "vitallist.js",
-  "version": "1.0.4",
+  "version": "1.5.0",
   "description": "The npm package for the VitalList API.",
   "main": "index.js",
   "scripts": {
